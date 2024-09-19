@@ -1,6 +1,25 @@
 # pycheck-image-channels
 Check the number of image channels
 
+## Demo
+
+```
+(yolov8) koala@DESKTOP:/mnt/e/image-channels$ python3 main.py
+INFO. IMG.: carvana_img.jpg; Channels :  3 ; Details :  (<PIL.Image.Image image mode=L size=1918x1280 at 0x7FDE9BF37FA0>, <PIL.Image.Image image mode=L size=1918x1280 at 0x7FDE9BF37F70>, <PIL.Image.Image image mode=L size=1918x1280 at 0x7FDE22118760>)
+INFO. IMG.: carvana_mask.gif; Channels :  1 ; Details :  (<PIL.Image.Image image mode=P size=1918x1280 at 0x7FDE9BF373D0>,)
+INFO. IMG.: coco128.jpg; Channels :  3 ; Details :  (<PIL.Image.Image image mode=L size=640x480 at 0x7FDE9BF37FD0>, <PIL.Image.Image image mode=L size=640x480 at 0x7FDE9BF37FA0>, <PIL.Image.Image image mode=L size=640x480 at 0x7FDE9BF375B0>)
+INFO. IMG.: mvtec_ad_img1.png; Channels :  3 ; Details :  (<PIL.Image.Image image mode=L size=900x900 at 0x7FDE9BF37F70>, <PIL.Image.Image image mode=L size=900x900 at 0x7FDE221187C0>, <PIL.Image.Image image mode=L size=900x900 at 0x7FDE221189A0>)
+INFO. IMG.: mvtec_ad_img2.png; Channels :  3 ; Details :  (<PIL.Image.Image image mode=L size=900x900 at 0x7FDE9BF37F70>, <PIL.Image.Image image mode=L size=900x900 at 0x7FDE221187C0>, <PIL.Image.Image image mode=L size=900x900 at 0x7FDE22118880>)
+INFO. IMG.: mvtec_ad_mask.png; Channels :  1 ; Details :  (<PIL.Image.Image image mode=L size=900x900 at 0x7FDE9BF37F70>,)
+INFO. IMG.: salt_img.png; Channels :  4 ; Details :  (<PIL.Image.Image image mode=L size=101x101 at 0x7FDE9BF37FA0>, <PIL.Image.Image image mode=L size=101x101 at 0x7FDE9BF375B0>, <PIL.Image.Image image mode=L size=101x101 at 0x7FDE22118790>, <PIL.Image.Image image mode=L size=101x101 at 0x7FDE22118A60>)
+INFO. IMG.: salt_mask.png; Channels :  1 ; Details :  (<PIL.Image.Image image mode=I;16 size=101x101 at 0x7FDE9BF375B0>,)
+INFO. IMG.: brats_img_flair.jpg; Channels :  1 ; Details :  (<PIL.Image.Image image mode=L size=240x240 at 0x7FDE9BF37FA0>,)
+INFO. IMG.: brats_mask_seg.jpg; Channels :  1 ; Details :  (<PIL.Image.Image image mode=L size=240x240 at 0x7FDE9BF375B0>,)
+INFO. IMG.: brats_img_t1.jpg; Channels :  1 ; Details :  (<PIL.Image.Image image mode=L size=240x240 at 0x7FDE9BF37FA0>,)
+INFO. IMG.: brats_img_t1ce.jpg; Channels :  1 ; Details :  (<PIL.Image.Image image mode=L size=240x240 at 0x7FDE9BF375B0>,)
+INFO. IMG.: brats_img_t2.jpg; Channels :  1 ; Details :  (<PIL.Image.Image image mode=L size=240x240 at 0x7FDE9BF37FA0>,)
+```
+
 ## Datasets
 
 - https://www.kaggle.com/competitions/carvana-image-masking-challenge/
