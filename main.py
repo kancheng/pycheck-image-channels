@@ -31,10 +31,23 @@ img = Image.open('./salt_mask.png')
 # Directly output the number of channels of the image
 print("INFO. IMG.: salt_mask.png; Channels : ",len(img.split()), "; Details : ", img.split())
 
-img = Image.open('./brats_img.png')
+img = Image.open('./brats_img_flair.jpg')
 # Directly output the number of channels of the image
-print("INFO. IMG.: brats_img.png; Channels : ",len(img.split()), "; Details : ", img.split())
+print("INFO. IMG.: brats_img_flair.jpg; Channels : ",len(img.split()), "; Details : ", img.split())
 
-img = Image.open('./brats_mask.png')
+img = Image.open('./brats_mask_seg.jpg')
 # Directly output the number of channels of the image
-print("INFO. IMG.: brats_mask.png; Channels : ",len(img.split()), "; Details : ", img.split())
+print("INFO. IMG.: brats_mask_seg.jpg; Channels : ",len(img.split()), "; Details : ", img.split())
+
+img = Image.open('./brats_img_t1.jpg')
+# Directly output the number of channels of the image
+print("INFO. IMG.: brats_img_t1.jpg; Channels : ",len(img.split()), "; Details : ", img.split())
+
+img = Image.open('./brats_img_t1ce.jpg')
+# Directly output the number of channels of the image
+print("INFO. IMG.: brats_img_t1ce.jpg; Channels : ",len(img.split()), "; Details : ", img.split())
+
+img = Image.open('./brats_img_t2.jpg')
+# Directly output the number of channels of the image
+print("INFO. IMG.: brats_img_t2.jpg; Channels : ",len(img.split()), "; Details : ", img.split())
+
