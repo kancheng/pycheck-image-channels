@@ -9,7 +9,7 @@ Check the number of image channels
 
 - https://www.mvtec.com/company/research/datasets/mvtec-ad
 
-- 
+- https://www.kaggle.com/code/miladlink/brats-nifti-to-jpg/notebook
 
 ## Details
 
