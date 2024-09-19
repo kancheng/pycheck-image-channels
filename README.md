@@ -1,6 +1,16 @@
 # pycheck-image-channels
 Check the number of image channels
 
+## Datasets
+
+- https://www.kaggle.com/competitions/carvana-image-masking-challenge/
+
+- https://www.kaggle.com/competitions/tgs-salt-identification-challenge/
+
+- https://www.mvtec.com/company/research/datasets/mvtec-ad
+
+- 
+
 ## Details
 
 U-Net 是一種常用於圖像分割的卷積神經網絡架構，特別適合於醫療影像處理。它的設計有兩個主要部分：編碼器（下採樣）和解碼器（上採樣）。
