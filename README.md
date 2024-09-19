@@ -1,6 +1,10 @@
 # pycheck-image-channels
 Check the number of image channels
 
+- `demo.py` : 印出 `img.zip` 解壓後目錄下所有的圖檔路徑與圖片通道。
+
+- `main.py` : 印出指定圖片通道。
+
 ## Demo
 
 ```
